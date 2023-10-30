@@ -1,2 +1,0 @@
-# Naum
-# Naum
