@@ -115,7 +115,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     background-color: #212121;
-    height: 50rem;
     align-items: center;
     width: 100%;
 
@@ -242,5 +241,9 @@ iframe {
     }
 
 } 
+
+@media only screen and (max-width: 507px) {
+    
+
 
 
