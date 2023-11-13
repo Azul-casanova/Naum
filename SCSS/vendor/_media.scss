@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1000px) {
+    .ul_nav1 {
+        display: none !important;
+    }
+
+    .ul_footer {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+} 
+
+@media only screen and (max-width:1000px) {
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+
+    #p-banner {
+        margin-left: 0;
+
+    }
+
+    .banner-text {
+        display: none;
+    }
+
+
+    }
+}
+

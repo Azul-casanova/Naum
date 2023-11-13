@@ -1,0 +1,185 @@
+@import "../vendor/mixins";
+
+/*POR DEFECTO NAVEGADOR*/
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*para que 1rem= 10px*/
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url(../images/background.png)
+}
+
+
+/*Estilo nav*/
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    ul {
+        display: flex;
+        font-size: 2rem;
+        font-weight: 200;
+        font-family: 'roboto_light';
+        text-decoration: none;
+        list-style-type: none;
+        flex-wrap: wrap;
+    }
+
+        li {
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                margin-right: 4rem;
+                color: black;
+                padding-inline: 2rem;
+            }
+            
+        }
+        
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fafafa;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        
+        
+        .logo {
+            display: flex;
+            @include sizes(20rem, 10rem)
+        }
+    
+        .icon {
+            position: absolute;
+            left: 2%;
+            top: 70%;
+            
+            a {
+                margin-right: 1rem;
+                color: #212121;
+            }
+        }
+    }
+    
+    #hamburguesa {
+    
+        background-color: #fafafa;
+        border: #212121;
+        color: #212121;
+        position: absolute;
+        top: 50%;
+        right: 2rem;
+    }
+
+    .navbar bg-body-tertiary fixed-top {
+        display: flex;
+        flex-wrap: wrap;
+
+        &-toggler {
+            display: flex;
+        }
+}
+
+/*comienzo banner*/
+
+.banner {
+    margin-top: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #212121;
+
+    .banner-text {
+        font-family: 'Satisfy', cursive;
+        font-size: 10rem;
+        color: #fafafa;
+        margin-left: 60rem;
+
+    a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    }
+
+    #p-banner {
+        background-color: #616161;
+        margin-left: 60rem;
+        margin-top: 2rem;
+
+        p {
+        font-size: 2rem;
+        font-family:'Jost', sans-serif;
+        color: #fafafa;
+        padding: 3%;
+        }
+
+    }
+}
+
+
+/*footer*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #212121;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30rem;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+
+        li {
+            margin-right: 2rem;
+
+            a {
+                text-decoration: none;
+                align-items: center;
+                color: white;
+                font-size: 2rem;
+                }
+        }
+
+    }
+    
+    p {
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    }
+} 
+
+
+
+iframe {
+    @include sizes(30rem,30rem);
+    margin-top: 2rem;
+}
+
+
+
