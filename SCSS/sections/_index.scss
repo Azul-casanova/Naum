@@ -112,6 +112,13 @@ html {
     background-color: #212121;
     flex-direction: column;
     margin-right: 0;
+    
+    .banner-image {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    }
+
 
     #p-banner {
         display: flex;
@@ -122,12 +129,6 @@ html {
         font-family: 'roboto_light';
         font-size: 2rem;
         margin-left: 60rem;
-    
-    .banner-image {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    }
 
 
 }
@@ -149,11 +150,11 @@ footer {
         flex-wrap: wrap;
         list-style-type: none;
         align-items: center;
+        color: #fafafa;
     
         li {
             display: flex;
             flex-wrap: wrap;
-            color: #fafafa;
             font-family: 'roboto_light';
             font-size: 2rem;
             padding-top: 2rem;

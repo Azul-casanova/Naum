@@ -4,17 +4,23 @@
     }
 
     .banner {
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
 
-    #p-banner {
-        margin-left: 0;
+        .banner-image {
+            justify-content: center;
+            width: 100%;
 
-    }
+            img {
+                width: 100%;
+            }
+        }
 
-    .banner-text {
-        display: none;
-    }
+        #p-banner {
+            width: 100%;
+            margin: 0;
+        }
 
     }
 }
@@ -30,10 +36,6 @@
 
     }
     }
-
-    #p-banner {
-            width: 100%;
-        }
 
 
     .productos {
@@ -54,6 +56,7 @@
             padding: 0;
         }
     }
+
 
 
 }

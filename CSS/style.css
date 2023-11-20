@@ -200,7 +200,12 @@ html {
   flex-direction: column;
   margin-right: 0;
 }
-.banner #p-banner {
+.banner .banner-image {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#p-banner {
   display: flex;
   flex-wrap: wrap;
   background-color: #616161;
@@ -209,10 +214,6 @@ html {
   font-family: "roboto_light";
   font-size: 2rem;
   margin-left: 60rem;
-}
-.banner #p-banner .banner-image {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /*footer*/
@@ -230,11 +231,11 @@ footer ul {
   flex-wrap: wrap;
   list-style-type: none;
   align-items: center;
+  color: #fafafa;
 }
 footer ul li {
   display: flex;
   flex-wrap: wrap;
-  color: #fafafa;
   font-family: "roboto_light";
   font-size: 2rem;
   padding-top: 2rem;
@@ -270,14 +271,20 @@ footer ul li a svg {
     display: none !important;
   }
   .banner {
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .banner .banner-image {
+    justify-content: center;
+    width: 100%;
+  }
+  .banner .banner-image img {
+    width: 100%;
   }
   .banner #p-banner {
-    margin-left: 0;
-  }
-  .banner .banner-text {
-    display: none;
+    width: 100%;
+    margin: 0;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -287,9 +294,6 @@ footer ul li a svg {
   }
   footer ul {
     justify-content: center;
-  }
-  #p-banner {
-    width: 100%;
   }
   .productos {
     flex-direction: column;
