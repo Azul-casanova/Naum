@@ -1,18 +1,21 @@
-#carousel-inner {
-        display: flex;
-        max-width: 70%;
-        max-height: 70%;
-        margin-top: 1rem;
-        margin-bottom: 20rem;
-        margin-left: 15rem;
+
+.genero {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    font-family: 'Amatic SC', sans-serif;
+    color: #fafafa;
+    font-size: 5rem;
+    background-color: #8c8c8c;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        padding-top: 5%;
     }
 
-#lino {
-    margin-top: 10rem;
-    font-family: 'Satisfy', cursive;
-    color: #fafafa;
-    font-size: 10rem;
-    background-color: #212121;
-    padding-top: 5rem;
-    padding-left: 15rem;
+    #carousel-inner {
+        display: flex;
+        flex-wrap: wrap;
+}
 }

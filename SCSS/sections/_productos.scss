@@ -1,16 +1,15 @@
 .card {
         display: flex;
         flex-wrap: wrap;
-        position: relative;
-        left: 5rem;
-        margin-top: 8rem;
-        margin-bottom: 10rem;
-        margin-right: 20rem;
+        margin-right: 10rem;
+        margin-top: 10rem;
     }
     
     .productos {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-top: 20rem;
+        justify-content: center;
+        padding: 10rem;
+
     }

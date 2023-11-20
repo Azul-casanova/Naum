@@ -1,0 +1,39 @@
+.body {
+    justify-content: center;
+}
+
+.donde_estamos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'roboto_light';
+    color: #212121;
+
+    h1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+    }
+
+    p {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5rem;
+        font-size: 2rem;
+    }
+
+
+    iframe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 30rem;
+        height: 30rem;
+        margin-bottom: 10rem;
+    }
+}
+

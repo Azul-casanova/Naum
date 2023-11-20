@@ -3,15 +3,6 @@
         display: none !important;
     }
 
-    .ul_footer {
-        flex-direction: column;
-        margin-bottom: 2rem;
-    }
-
-} 
-
-@media only screen and (max-width:1000px) {
-
     .banner {
         flex-direction: column;
         justify-content: center;
@@ -25,7 +16,44 @@
         display: none;
     }
 
-
     }
 }
 
+
+@media only screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+
+    ul {
+        justify-content: center;
+
+    }
+    }
+
+    #p-banner {
+            width: 100%;
+        }
+
+
+    .productos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        margin-right: 0;
+    }
+
+    #lino {
+        justify-content: center;
+
+        #carousel-inner {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+
+}
