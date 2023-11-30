@@ -22,11 +22,20 @@
   margin-left: 3rem;
   margin-right: 3rem;
   flex-direction: column;
+  font-size: 2rem;
+  font-family: "roboto_light";
+  color: #212121;
+}
+#accordionPanelsStayOpenExample .accordion-button {
+  font-size: 2rem;
+  color: #212121;
+  font-family: "roboto_light";
 }
 
 .form_contacto {
   display: flex;
   flex-wrap: wrap;
+  width: 99%;
   margin-top: 20rem;
   margin-bottom: 10rem;
   justify-content: center;
@@ -36,13 +45,7 @@
   font-size: 2rem;
 }
 .form_contacto h1 {
-  margin-bottom: 10rem;
-}
-
-.form_h1 {
-  display: flex;
-  margin-left: 3rem;
-  margin-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 #body_c {
@@ -88,12 +91,14 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   font-family: "Amatic SC", sans-serif;
   color: #fafafa;
   font-size: 5rem;
   background-color: #8c8c8c;
   justify-content: center;
   align-items: center;
+  width: 99%;
 }
 .genero p {
   padding-top: 5%;
@@ -198,7 +203,7 @@ html {
   flex-wrap: wrap;
   background-color: #212121;
   flex-direction: column;
-  margin-right: 0;
+  width: 99%;
 }
 .banner .banner-image {
   display: flex;
@@ -216,6 +221,17 @@ html {
   margin-left: 60rem;
 }
 
+#p-banner-1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #616161;
+  padding: 5%;
+  color: #fafafa;
+  font-family: "roboto_light";
+  font-size: 2rem;
+  margin-right: 60rem;
+}
+
 /*footer*/
 footer {
   display: flex;
@@ -223,7 +239,7 @@ footer {
   background-color: #212121;
   min-height: 30rem;
   justify-content: space-around;
-  width: 100%;
+  width: 99.5%;
   margin-right: 0;
 }
 footer ul {
@@ -245,6 +261,7 @@ footer ul li a {
   display: flex;
   flex-wrap: wrap;
   color: #fafafa;
+  text-decoration: none;
 }
 footer ul li a svg {
   width: 2rem;
@@ -254,16 +271,21 @@ footer ul li a svg {
 .card {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 10rem;
-  margin-top: 10rem;
+  margin-right: 15rem;
+  font-size: 2rem;
+  font-family: "roboto_light";
+  color: #212121;
 }
 
 .productos {
   display: flex;
+  flex-direction: row;
+  width: 99%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 10rem;
+  margin-top: 20rem;
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -285,6 +307,12 @@ footer ul li a svg {
   .banner #p-banner {
     width: 100%;
     margin: 0;
+    margin-bottom: 2rem;
+  }
+  .banner #p-banner-1 {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -301,7 +329,11 @@ footer ul li a svg {
     align-items: center;
   }
   .card {
+    margin-bottom: 2rem;
     margin-right: 0;
+  }
+  #ramio {
+    margin-top: 1rem;
   }
   #lino {
     justify-content: center;

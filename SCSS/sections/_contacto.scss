@@ -7,11 +7,21 @@
     margin-left: 3rem;
     margin-right: 3rem;
     flex-direction: column;
+    font-size: 2rem;
+    font-family: 'roboto_light';
+    color: #212121;
+
+    .accordion-button {
+        font-size: 2rem;
+        color: #212121;
+        font-family: 'roboto_light';
+    }
 }
 
 .form_contacto {
     display: flex;
     flex-wrap: wrap;
+    width: 99%;
     margin-top: 20rem;
     margin-bottom: 10rem;
     justify-content: center;
@@ -21,15 +31,11 @@
     font-size: 2rem;
 
     h1 {
-        margin-bottom: 10rem;
+        padding-bottom: 5rem;
     }
 }
 
-.form_h1 {
-    display: flex;
-    margin-left: 3rem;
-    margin-top: 5rem;
-}
+
 
 #body_c {
     background-color: #b5b5b5;   

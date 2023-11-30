@@ -1,15 +1,21 @@
 .card {
         display: flex;
         flex-wrap: wrap;
-        margin-right: 10rem;
-        margin-top: 10rem;
+        margin-right: 15rem;
+        font-size: 2rem;
+        font-family: 'roboto_light';
+        color: #212121;
+
+
     }
     
     .productos {
         display: flex;
+        flex-direction: row;
+        width: 99%;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        padding: 10rem;
-
+        margin-top: 20rem;
+        margin-bottom: 5rem;
     }

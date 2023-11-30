@@ -111,7 +111,7 @@ html {
     flex-wrap: wrap;
     background-color: #212121;
     flex-direction: column;
-    margin-right: 0;
+    width: 99%;
     
     .banner-image {
     display: flex;
@@ -129,10 +129,19 @@ html {
         font-family: 'roboto_light';
         font-size: 2rem;
         margin-left: 60rem;
-
-
 }
 
+#p-banner-1 {
+    display: flex;
+        flex-wrap: wrap;
+        background-color: #616161;
+        padding: 5%;
+        color: #fafafa;
+        font-family: 'roboto_light';
+        font-size: 2rem;
+        margin-right: 60rem;
+
+}
 
 /*footer*/
 
@@ -142,7 +151,7 @@ footer {
     background-color:#212121;
     min-height: 30rem;
     justify-content: space-around;
-    width: 100%;
+    width: 99.5%;
     margin-right: 0;
 
     ul {
@@ -164,6 +173,7 @@ footer {
             display: flex;
             flex-wrap: wrap;
             color: #fafafa;
+            text-decoration: none;
 
             svg {
                 width: 2rem;
